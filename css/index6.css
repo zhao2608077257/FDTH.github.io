@@ -1,0 +1,164 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	background-image:url(../img/bg-cpx.png);
+	background-position: -160px -14px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	border: none;
+	outline: none;
+}
+
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+
+.clear{
+	clear: both;
+}
+
+
+.overfl{
+	overflow: hidden;
+}
+
+/* ------------ */
+
+/*nav*/
+.box{
+	width: 100%;
+}
+
+.nav a{
+	color: #6d6a1d;
+}
+
+
+.nav{
+	width: 1200px;
+	height: 158px;
+	margin: 0 auto;
+}
+
+.nav>.logo{
+	margin-top:11px;
+	float: left; 
+}
+
+.nav>.item{
+	float: left;
+	margin-top:105px;
+	margin-left: 126px;  
+}
+
+.nav>.item>li{
+	float: left;
+	padding: 0 18px;
+	font-family: "微软雅黑"；
+	font-size:14px;
+	border-right: 2px solid #6d6a1d; 
+}
+
+.nav>.item>li:last-child{
+	border:none;
+}
+
+.nav>.item>li:nth-child(5){
+	background: url(../img/vuan.png);
+	background-repeat: no-repeat;
+	background-position: center -10px;	
+}
+
+.nav>.item>li:hover{
+	background: url(../img/vuan.png);
+	background-repeat: no-repeat;
+	background-position: center -10px;	
+}
+
+.nav>.lianxi{
+	margin-top:56px; 
+	float: right;
+	line-height: 28px;
+}
+/*nav end*/
+
+/*concent*/
+.concent{
+	width: 1200px;
+	height: 776px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.pict{
+	width:1150px;
+	height: 620px;
+	background: rgba(116,100,28,0.5); 
+	border-radius: 12px;
+	margin: 50px auto 0;
+	padding: 44px 76px 0 40px;
+	box-sizing: border-box;
+}
+
+.pict>img{
+	border:18px solid #eeb819;
+	border-radius: 8px;
+}
+
+.pict>div{
+	margin-top:280px;
+	color: #fff;
+	font-size: 14px;
+	line-height: 24px; 
+}
+
+.pict>div>p:first-child::before{
+	content:url(../img/icon3.png);
+	width: 24px;
+	height: 18px;
+	margin-right: 4px; 
+}
+
+.pict>div>p:nth-child(2)::before{
+	content:url(../img/icon2.png);
+	width: 28px;
+	height: 22px;
+}
+
+.pict>div>p:nth-child(3)::before{
+	content:url(../img/icon.png);
+	width: 22px;
+	height: 12px;
+	margin-right: 6px; 
+}
+
+/*concent end*/
+
+/*foot*/
+.foot{
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 50px;
+	line-height: 50px;
+	color: #6d6a1d;
+	background: #283226;
+	text-align: center;
+}
+
+.foot>p{
+	white-space: pre;
+	cursor: pointer;
+}
+/*foot end*/

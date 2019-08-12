@@ -1,0 +1,239 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	background-image:url(../img/bg-cp.png);
+	background-position: -160px 44px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	border: none;
+	outline: none;
+}
+
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+
+.clear{
+	clear: both;
+}
+
+
+.overfl{
+	overflow: hidden;
+}
+
+/* ------------ */
+
+/*nav*/
+.box{
+	width: 100%;
+}
+
+.nav a{
+	color: #6d6a1d;
+}
+
+
+.nav{
+	width: 1200px;
+	height: 158px;
+	margin: 0 auto;
+}
+
+.nav>.logo{
+	margin-top:11px;
+	float: left; 
+}
+
+.nav>.item{
+	float: left;
+	margin-top:105px;
+	margin-left: 126px;  
+}
+
+.nav>.item>li{
+	float: left;
+	padding: 0 18px;
+	font-family: "微软雅黑"；
+	font-size:14px;
+	border-right: 2px solid #6d6a1d; 
+}
+.nav>.item>li:last-child{
+	border:none;
+}
+
+.nav>.item>li:nth-child(2){
+	background: url(../img/vuan.png);
+	background-repeat: no-repeat;
+	background-position: center -10px;	
+}
+
+.nav>.item>li:hover{
+	background: url(../img/vuan.png);
+	background-repeat: no-repeat;
+	background-position: center -10px;	
+}
+
+.nav>.lianxi{
+	margin-top:56px; 
+	float: right;
+	line-height: 28px;
+}
+/*nav end*/
+
+/*banner*/
+.banner{
+	width: 100%;
+}
+
+.banner>a>img{
+	width: 100%;
+}
+/*banner end*/
+
+/*concent*/
+.concent{
+	width: 1200px;
+	height: 880px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.concent>.m-box a{
+	color: #fcf582;
+}
+
+/*picture*/
+
+.m-box{
+	width: 1124px;
+	height: 980px;
+	margin: 0 auto;
+	padding: 20px 40px;
+	border-radius: 20px;
+	box-sizing: border-box;
+	position: absolute;
+	background: rgba(183,144,23,0.3);
+	top: -100px;
+}
+
+.pic>ul>li{
+	width: 294px;
+	height: 370px;
+	background: #2f2703;
+	float: left;
+	margin: 20px 27px;
+	border:4px solid #000;
+	box-sizing: border-box;
+	border-radius: 4px; 
+	text-align: center;
+	cursor: pointer;
+}
+
+.pic>ul>li>img{
+	margin-top:20px; 
+}
+
+.pic>ul>li>p{
+	margin-left:32px;
+	font-size: 12px;
+	line-height: 22px;
+	color: white;
+	text-align: left;
+}
+
+.pic>ul>li>p:nth-child(2){
+	margin-top:36px; 
+}
+
+.pic>ul>li>p:nth-child(5){
+	text-indent: 2em;
+	color: #ed1534;
+}
+
+.pic>ul>li>p:last-child{
+	text-align: right;
+	margin-right: 32px; 
+}
+
+/*页码*/
+
+.tiao{
+	width: 530px;
+	margin: 0 auto;
+	margin-top: 50px; 
+}
+
+.yema>li{
+	margin: 0 16px;
+	line-height: 32px;
+	float: left;
+	cursor: pointer;
+}
+
+.yema>li:first-child{
+	color: #fff;
+}
+
+.yema-up{
+	width: 72px;
+	height: 30px;
+	float: left;
+	background: #fef77d;
+	border: 1px solid #2f2603;
+	border-radius: 6px;
+	font-size: 14PX; 
+	text-align: center;
+	line-height: 32px;
+}
+
+.tiao>div:nth-child(3){
+	background: none;
+}
+
+.tiao>input{
+	width: 18px;
+	height: 14px;
+	border: 1px solid #6d6a1d;
+	border-radius: 4px;
+	background: none;
+	padding-left: : 2px;
+	margin-left: 48px;
+	margin-top:  8px; 
+}
+
+.tiao>span{
+	font-size: 14px;
+	line-height: 32px;
+	cursor: pointer;
+}
+
+/*concent end*/
+
+/*foot*/
+.foot{
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 50px;
+	line-height: 50px;
+	color: #6d6a1d;
+	text-align: center;
+}
+
+.foot>p{
+	white-space: pre;
+	cursor: pointer;
+}
+/*foot end*/
